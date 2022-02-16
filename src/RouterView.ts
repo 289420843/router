@@ -177,8 +177,11 @@ export const RouterViewImpl = /*#__PURE__*/ defineComponent({
       return (
         // pass the vnode to the slot as a prop.
         // h and <component :is="..."> both accept vnodes
-        normalizeSlot(slots.default, { Component: component, route }) ||
-        component
+        normalizeSlot(slots.default, {
+          Component: component,
+          route,
+          matchedRoute,
+        }) || component
       )
     }
   },
