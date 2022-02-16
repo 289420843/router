@@ -1,5 +1,5 @@
 {
-  "name": "vue-router",
+  "name": "vue-router-s",
   "version": "4.0.12",
   "main": "dist/vue-router.cjs.js",
   "unpkg": "dist/vue-router.global.js",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/router.git"
+    "url": "git+https://github.com/289420843/router.git"
   },
   "bugs": {
     "url": "https://github.com/vuejs/router/issues"
