@@ -119,7 +119,11 @@ export const RouterViewImpl = /*#__PURE__*/ defineComponent({
       const currentName = props.name
 
       if (!ViewComponent) {
-        return normalizeSlot(slots.default, { Component: ViewComponent, route })
+        return normalizeSlot(slots.default, {
+          Component: ViewComponent,
+          route,
+          matchedRoute,
+        })
       }
 
       // props from route configuration
